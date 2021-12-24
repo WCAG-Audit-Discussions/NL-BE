@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<title>{% if title %} {{ title | striptags }} {% endif %}</title>
+	</head>
+	<body>
+		<main id="main">
+			{{ content | safe }}
+		</main>
+	</body>
+</html>
