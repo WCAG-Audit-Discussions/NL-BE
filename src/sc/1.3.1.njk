@@ -1,0 +1,36 @@
+---
+title: 1.3.1 Info en relaties (Niveau A)
+layout: base.njk
+link: https://www.w3.org/WAI/WCAG21/quickref/#non-text-content
+tags: successcriterion
+number: sc010301
+permalink: sc/1-3-1.html
+---
+<div class="block">
+
+<h1>{{ title }}</h1>
+
+<p><a href="{{ link }}"> Link naar WCAG Quickref</a></p>
+</div>
+<div class="block">
+<h2>Discussies</h2>
+
+{%- for discussie in collections.sc010301 -%}
+<ul>
+  <li><a href="#{{ discussie.data.title | slugify }}"> {{ discussie.data.title }} ( {{ discussie.data.label }} )</li></a>
+</ul>
+
+{%- endfor -%}
+
+</div>
+
+<div class="block">
+
+{%- for discussie in collections.sc010301 -%}
+
+  <h3 id="{{ discussie.data.title | slugify }}"> {{ discussie.data.title }} ( {{ discussie.data.label }} )</h3>
+  {{ discussie.templateContent | safe }}
+
+{%- endfor -%}
+</div>
+

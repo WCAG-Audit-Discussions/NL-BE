@@ -1,0 +1,19 @@
+
+* {
+	font-family: sans-serif;
+}
+
+body {
+	max-width: 50em;
+	padding: 1em;
+	background-color: #efefef;
+	color: #333;
+	margin: 0 auto;
+}
+
+.block {
+	border: solid 1px #eee;
+	background-color: #fff;
+	padding: 1em;
+	margin-bottom: 1em;
+}
