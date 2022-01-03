@@ -4,9 +4,9 @@
 	<div>
 	    <ul>
 	    {% for successcriterion in collections.successcriterion %}
-	      <li><a href="{{ successcriterion.url }}">{{ successcriterion.data.title }}</a></li>
+	      <li><a href="{{ successcriterion.url | url }}">{{ successcriterion.data.title }}</a></li>
 	    {% endfor %}
 	    </ul>
 	</div>
-	
+
 </div>

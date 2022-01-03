@@ -20,3 +20,17 @@ Aardappels zijn geen vruchten en hangen niet aan bomen, ondanks hun verwarrende 
 
 #### Conclusie
 Dit wordt afgekeurd onder 1.3.1 aangezien er een relatie is aangegeven met behulp van vormgeving die niet door software bepaald kan worden.
+
+Hier komt een stukje HTML
+
+```html
+<h2>Appels</h2>
+<p>Apples zijn <a href="some-url">rode</a> of groene vruchten die aan bomen hangen.</p>
+```
+
+Stukje CSS
+```css
+.extra {
+	font-weight: bold;
+}
+```
