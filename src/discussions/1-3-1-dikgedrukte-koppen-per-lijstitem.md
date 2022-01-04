@@ -1,7 +1,8 @@
 ---
 title: 1.3.1 Dikgedrukte koppen per lijstitem
 tags: sc010301
-label: failed
+label: failed, markup
+status: open
 permalink: false
 ---
 
