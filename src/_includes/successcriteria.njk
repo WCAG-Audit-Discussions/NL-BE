@@ -1,12 +1,17 @@
+{# successcriteria.jnk #}
+{# Lists all success criteria #}
 <div class="block">
+
 	<h2>Succescriteria</h2>
 
 	<div>
+
 	    <ul>
 	    {% for successcriterion in collections.successcriterion %}
 	      <li><a href="{{ successcriterion.url | url }}">{{ successcriterion.data.title }}</a></li>
 	    {% endfor %}
 	    </ul>
+
 	</div>
 
 </div>

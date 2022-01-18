@@ -1,26 +1,43 @@
+{# base.jnk, main template for the website #}
 <!DOCTYPE html>
 <html lang="nl">
+
 	<head>
+
 		<meta charset="utf-8">
 		<title>{% if title %} {{ title | striptags }} {% endif %}</title>
 		<link rel="stylesheet" href="/css/stylesheet.css">
-		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"
-	</head>
-	<body>
-	<header class="block">
-		<nav>
-			<ul>
-				<li><a href="/">Voorpagina</a></li>
-				<li><a href="https://github.com/WCAG-Audit-Discussions/NL-BE/issues?q=is%3Aissue">Issues op GitHub</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main id="main">
-		{{ content | safe }}
 
-	</main>
-	<footer class="block">
-	<p>Een initiatief van het Fronteers Accessibility Slack kanaal.</p>
-	</footer>
+		<!–– CSS for displaying code examples––>
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<header class="block">
+
+			<nav aria-label="main">
+				<ul>
+					<li><a href="/">Voorpagina</a></li>
+					<li><a href="https://github.com/WCAG-Audit-Discussions/NL-BE/issues?q=is%3Aissue">Issues op GitHub</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<main id="main">
+
+			{{ content | safe }}
+
+		</main>
+
+		<footer class="block">
+
+			<p>Een initiatief van het <a href="">Fronteers Accessibility Slack kanaal</a>.</p>
+
+		</footer>
+
 	</body>
+
 </html>
