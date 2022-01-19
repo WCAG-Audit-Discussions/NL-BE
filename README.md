@@ -1,5 +1,6 @@
 # WCAG Audit Discussies in Nederland en Vlaanderen
-Deze GitHub repository bevat Nederlandstalige discussies over hoe WCAG en de succescriteria te interpreteren en toe te passen.
+
+Deze GitHub repository bevat Nederlandstalige discussies over hoe [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/glance/) en de succescriteria te interpreteren en toe te passen.
 Iedereen kan een probleem of vraag voorleggen door een [issue te openen](https://github.com/WCAG-Audit-Discussions/NL-BE/issues).
 
 De uitkomst met een samenvatting van de discussie wordt daarna vastgelegd in de GitHub pages van deze repository:
