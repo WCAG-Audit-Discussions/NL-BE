@@ -32,22 +32,24 @@ We zijn lief en respectvol voor elkaar en voor elkaars mening.
 - [Marjon Bakker](https://github.com/MarjonBakker) van Firm Ground
 - [Ronny Hendriks](https://github.com/Aircl0wn) van Toegankelijk Online
 
-## Opzet GitHub pages
+## Bijdragen aan de GitHub Pages
 
-In Principe onderhouden de beheerders de GitHub Pages.
+In principe onderhouden de beheerders de GitHub Pages.
 De pagina’s zijn gemaakt en worden bijgehouden met de [NPM module Eleventy](https://www.11ty.dev/docs/getting-started/). Voor een local install heb je [node.js](https://nodejs.org/en/) versie 10 of hoger nodig.
+
+### Opzetten locale omgeving
 
 Stappen:
 - clone deze repository op een voor jou geschikte plek
 - open een terminal
 - ga de directory van clone binnen: `cd NL-BE`
-- draai Eleventy: `npx @11ty/eleventy --serve`
+- draai Eleventy: `npm start`
 
 Er start dan een lokale webserver op met de GitHub pages http://localhost:8080
 
 Wil je discussies wijzigen of toevoegen?
 - maak je wijzigingen in de `NL-BE/src/` directory
 - de files met de success criteria staan in `src/sc/` bijvoorbeeld: `Succescriterium-1-1-1-Niet-tekstuele-content.md`
-- draai in de terminal, in de `NL-BE/` directory, `npx @11ty/eleventy --serve`.
+- draai in de terminal, in de `NL-BE/` directory, `npm run build`.
 
-Een van de beheerders doet een review van je pull request en beslist of een PR wordt gemerged en zo opgenomen bij de uitkomsten van de discussies.
+Een pull request moet door 2 reviewers worden goedgekeurd voordat het gemerged kan worden.

@@ -1,13 +1,14 @@
 /**
  * .eleventy.js
  *
- * Project: WCAG-Audit-Discussions.
- * GitHub: https://github.com/WCAG-Audit-Discussions.
- * Author: Rian Rietveld.
+ * Project:	WCAG-Audit-Discussions.
+ * GitHub:	https://github.com/WCAG-Audit-Discussions.
+ * Authors:	Rian Rietveld and Hidde de Vries.
  */
 
 const slugify         = require("slugify");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const isProduction 		= process.env.NODE_ENV === 'production';
 
 module.exports = function(eleventyConfig) {
 
@@ -48,5 +49,6 @@ module.exports = function(eleventyConfig) {
 			"data": "_data",
 			"output": "docs",
 		},
+		pathPrefix: isProduction ? '/NL-BE/' : '/',
 	}
 };
