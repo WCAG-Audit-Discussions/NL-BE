@@ -1,0 +1,40 @@
+{# discussions.jnk, uses _includes/base.njk as main template  #}
+{# Lists all discussions belonging to one success criterion #}
+<div class="block">
+
+	<h1>{{ title }}</h1>
+
+	<p>
+		<a href="{{ link }}" hreflang="en"> Link naar WCAG Quickref</a>
+	</p>
+
+</div>
+
+<div class="block">
+
+	<h2>Discussies</h2>
+
+	{%- if collections[ number ] -%}
+	<ul>
+		{# List in internal links to the discussions below #}
+		{%- for discussie in collections[ number ] -%}
+     <li><a href="#{{ discussie.data.title | slugify | url }}">{{ discussie.data.title }}</a></li>
+		{%- endfor -%}
+  </ul>
+	{%- else -%}
+		<p>Er zijn over dit criterium nog geen discussies beschreven.</p>
+	{%- endif -%}
+
+</div>
+
+{%- if collections[ number ] -%}
+<div class="block">
+
+	{%- for discussie in collections[ number ] -%}
+  <h3 id="{{ discussie.data.title | slugify | url }}"> {{ discussie.data.title }}</h3>
+    {{ discussie.templateContent | safe }}
+	{%- endfor -%}
+
+</div>
+{%- endif -%}
+
