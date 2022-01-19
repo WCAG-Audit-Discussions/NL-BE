@@ -30,7 +30,7 @@ We zijn lief en respectvol voor elkaar en voor elkaars mening.
 - [Jules Ernst](https://github.com/julezrulez) van 200OK
 - [Hidde de Vries](https://github.com/hidde) van Hidde de Vries
 - [Marjon Bakker](https://github.com/MarjonBakker) van Firm Ground
-- [Ronny Hendirks](https://github.com/Aircl0wn) van Toegankelijk Online
+- [Ronny Hendriks](https://github.com/Aircl0wn) van Toegankelijk Online
 
 ## Opzet GitHub pages
 
