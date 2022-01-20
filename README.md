@@ -49,8 +49,10 @@ Stappen:
 Er start dan een lokale webserver op met de GitHub pages http://localhost:8080
 
 Wil je discussies wijzigen of toevoegen?
-- maak je wijzigingen in de `NL-BE/src/` directory
-- de files met de success criteria staan in `src/sc/` bijvoorbeeld: `Succescriterium-1-1-1-Niet-tekstuele-content.md`
+- maak een nieuwe branch aan in Git.
+-	maak je wijzigingen in de `NL-BE/src/` directory.
+- de files met de discussies staan in `src/discussion/`, kijk bij een bestaande file over een discussie naar de opzet.
 - draai in de terminal, in de `NL-BE/` directory, `npm run build`.
+- Maak een pull request aan, publiceer deze op GitHub en vraag om een review.
 
 Een pull request moet door 2 reviewers worden goedgekeurd voordat het gemerged kan worden.
