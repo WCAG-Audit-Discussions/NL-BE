@@ -14,12 +14,13 @@ Het doel is om discussies vast te leggen en naar verwijzen bij onderzoeken en au
 Iedereen is vrij om issues te openen en mee te discussiëren.
 
 ## Discussies
-Deze omgeving is voor discussie over het interpreteren van de WCAG success criteria.
+Deze omgeving is voor discussie over het interpreteren van de WCAG succescriteria.
 - Hoe interpreteer je de succescriteria van WCAG bij audits en consultancy?
 - Wat zijn uitzonderingen?
 - Hoe pas je de regels toe voor bijzondere constructies die je bij audits of reviews tegenkomt?
 
 Heb je vragen of opmerkingen over WCAG zelf, dan is dit niet de goede plek.
+Hiervoor kun je terecht op de Fronteers slack (fronteersnl.slack.com) in het kanaal #accessibility.
 
 ## Code of conduct
 We zijn lief en respectvol voor elkaar en voor elkaars mening.
@@ -48,8 +49,10 @@ Stappen:
 Er start dan een lokale webserver op met de GitHub pages http://localhost:8080
 
 Wil je discussies wijzigen of toevoegen?
-- maak je wijzigingen in de `NL-BE/src/` directory
-- de files met de success criteria staan in `src/sc/` bijvoorbeeld: `Succescriterium-1-1-1-Niet-tekstuele-content.md`
+- maak een nieuwe branch aan in Git.
+-	maak je wijzigingen in de `NL-BE/src/` directory.
+- de files met de discussies staan in `src/discussion/`, kijk bij een bestaande file over een discussie naar de opzet.
 - draai in de terminal, in de `NL-BE/` directory, `npm run build`.
+- Maak een pull request aan, publiceer deze op GitHub en vraag om een review.
 
 Een pull request moet door 2 reviewers worden goedgekeurd voordat het gemerged kan worden.
