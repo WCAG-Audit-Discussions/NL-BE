@@ -15,12 +15,12 @@
 	<h2>Discussies</h2>
 
 	{%- if collections[ number ] -%}
-	<ul>
-		{# List in internal links to the discussions below #}
-		{%- for discussie in collections[ number ] -%}
-     <li><a href="#{{ discussie.data.title | slugify | url }}">{{ discussie.data.title }}</a></li>
-		{%- endfor -%}
-  </ul>
+		<ul>
+			{# List in internal links to the discussions below #}
+			{%- for discussie in collections[ number ] -%}
+	      <li><a href="#{{ discussie.data.title | slugify | url }}">{{ discussie.data.title }}</a></li>
+			{%- endfor -%}
+	  </ul>
 	{%- else -%}
 		<p>Er zijn over dit criterium nog geen discussies beschreven.</p>
 	{%- endif -%}

@@ -8,7 +8,13 @@
 
 	    <ul>
 	    {% for successcriterion in collections.successcriterion %}
-	      <li><a href="{{ successcriterion.url | url }}">{{ successcriterion.data.title }}</a></li>
+	      {% set discs = 0 %}
+	      {%- for discussie in collections[ successcriterion.data.number ] -%}
+	        {% set discs = discs + 1 %}
+	      {% endfor %}
+				{%- if discs > 0 -%}
+	        <li><a href="{{ successcriterion.url | url }}">{{ successcriterion.data.title }}</a>, discussies: {{ discs }}</li>
+				{%- endif -%}
 	    {% endfor %}
 	    </ul>
 
