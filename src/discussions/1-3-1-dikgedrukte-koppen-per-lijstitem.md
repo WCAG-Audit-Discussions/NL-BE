@@ -1,12 +1,11 @@
 ---
-title: 1.3.1 Dikgedrukte koppen per lijstitem
-tags: sc010301
+title: Dikgedrukte koppen per lijstitem
+tags: 1.3.1
 label: failed, markup
 status: open
 permalink: false
+github: https://github.com/WCAG-Audit-Discussions/NL-BE/issues/3
 ---
-
-[Discussie op GitHub](https://github.com/WCAG-Audit-Discussions/NL-BE/issues/3)
 
 Stel je hebt een lijst met lijstitems er in.
 
