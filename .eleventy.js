@@ -12,10 +12,10 @@ const isProduction 		= process.env.NODE_ENV === 'production';
 
 module.exports = function(eleventyConfig) {
 
-	eleventyConfig.addPassthroughCopy('./src/_assets');
+	eleventyConfig.addPassthroughCopy('./src/assets');
 	eleventyConfig.addPlugin(syntaxHighlight);
 
-  eleventyConfig.addWatchTarget("./src/_assets/");
+  eleventyConfig.addWatchTarget("./src/assets/");
 
 	/**
 	 * Universal slug filter that strips unsafe chars from URLs.
