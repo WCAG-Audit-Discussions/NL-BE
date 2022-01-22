@@ -93,7 +93,7 @@ nav[aria-label="main"] li:not(:first-child) a {
 	list-style: none;
 	padding-left: 0;
 }
-.list--scs a {
+.list--scs li {
 	display: block;
 	padding: .5em 0;
 }
