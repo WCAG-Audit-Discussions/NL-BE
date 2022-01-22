@@ -2,7 +2,7 @@
 {# Lists all success criteria #}
 <div class="block">
 
-	<h2>Succescriteria</h2>
+	<h2>Succescriteria met discussies</h2>
 
 	<div>
 
@@ -13,7 +13,7 @@
 	        {% set discs = discs + 1 %}
 	      {% endfor %}
 				{%- if discs > 0 -%}
-	        <li><a href="{{ successcriterion.url | url }}">{{ successcriterion.data.title }}</a>, discussies: {{ discs }}</li>
+	        <li><a href="{{ successcriterion.url | url }}">{{ successcriterion.data.title }}</a>, discussies: {{ discs }}.</li>
 				{%- endif -%}
 	    {% endfor %}
 	    </ul>
