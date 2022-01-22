@@ -6,7 +6,7 @@
 
 		<meta charset="utf-8">
 		<title>{% if title %} {{ title | striptags }} {% endif %}</title>
-		<link rel="stylesheet" href="{{ '/css/stylesheet.css' | url }}">
+		<link rel="stylesheet" href="{{ '/_assets/css/stylesheet.css' | url }}">
 
 		<!–– CSS for displaying code examples––>
 		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
@@ -15,28 +15,23 @@
 
 	<body>
 
-		<header class="block">
+		<nav aria-label="main">
+			<ul>
+				<li><a href="{{ '/' | url }}"><img src="{{ '/_assets/images/logo.png' | url }}" width="100" alt="Voorpagina" /></a></li>
+				<li><a href="https://github.com/WCAG-Audit-Discussions/NL-BE/issues?q=is%3Aissue">Issues op GitHub</a></li>
+			</ul>
+		</nav>
 
-			<nav aria-label="main">
-				<ul>
-					<li><a href="{{ '/' | url }}">Voorpagina</a></li>
-					<li><a href="https://github.com/WCAG-Audit-Discussions/NL-BE/issues?q=is%3Aissue">Issues op GitHub</a></li>
-				</ul>
-			</nav>
-
-		</header>
-
-		<main id="main">
+		<main id="main" class="block">
 
 			{{ content | safe }}
 
 		</main>
 
-		<footer class="block">
+		<footer>
 			<p>Een initiatief van het <a href="">Fronteers Accessibility Slack kanaal</a>.</p>
 			<p>Nieuwe discussies kun je aandragen op de <a href="https://github.com/WCAG-Audit-Discussions/NL-BE">GitHub repository WCAG-Audit-Discussions/NL-BE</a></p>
 		</footer>
-
 	</body>
 
 </html>

@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"start": "npm run dev",
-		"dev": "npm run eleventy:dev",
-		"build": "run-s eleventy:prod",
-		"eleventy:dev": "cross-env NODE_ENV=development eleventy --serve",
-		"eleventy:prod": "cross-env NODE_ENV=production eleventy"
-	},
+    "start": "npm run dev",
+    "dev": "npm run eleventy:dev",
+    "build": "run-s eleventy:prod",
+    "eleventy:dev": "cross-env NODE_ENV=development eleventy --serve",
+    "eleventy:prod": "cross-env NODE_ENV=production eleventy"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WCAG-Audit-Discussions/NL-BE.git"

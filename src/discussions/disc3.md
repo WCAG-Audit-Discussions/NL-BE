@@ -3,9 +3,8 @@ title: Dikgedrukte koppen per lijstitem
 tags: 1.3.1
 label: failed, lijsten
 permalink: false
+github: https://github.com/WCAG-Audit-Discussions/NL-BE/issues/3
 ---
-
-[Discussie op GitHub](https://github.com/WCAG-Audit-Discussions/NL-BE/issues/3)
 
 Stel je hebt een lijst met lijstitems er in.
 
@@ -18,5 +17,5 @@ Peren zijn ook vruchten die aan bomen hangen maar hebben een andere vorm.
 - **Aardappels**<br />
 Aardappels zijn geen vruchten en hangen niet aan bomen, ondanks hun verwarrende naam.
 
-### Conclusie
+#### Conclusie
 Dit wordt afgekeurd onder 1.3.1, omdat er een relatie is aangegeven met behulp van vormgeving die niet door software bepaald kan worden.
