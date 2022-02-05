@@ -55,4 +55,4 @@ Wil je discussies wijzigen of toevoegen?
 - draai in de terminal, in de `NL-BE/` directory, `npm run build`.
 - Maak een pull request aan, publiceer deze op GitHub en vraag om een review.
 
-Een pull request moet door 2 reviewers worden goedgekeurd voordat het gemerged kan worden.
+Een pull request moet door andere 1 reviewer worden goedgekeurd voordat het gemerged kan worden.
