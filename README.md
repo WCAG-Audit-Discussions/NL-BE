@@ -30,7 +30,6 @@ We zijn lief en respectvol voor elkaar en voor elkaars mening.
 - [Brian Bors](https://github.com/ShadowBB) van Stichting Accessibility
 - [Jules Ernst](https://github.com/julezrulez) van 200OK
 - [Hidde de Vries](https://github.com/hidde) van Hidde de Vries
-- [Marjon Bakker](https://github.com/MarjonBakker) van Firm Ground
 - [Ronny Hendriks](https://github.com/Aircl0wn) van Toegankelijk Online
 
 ## Bijdragen aan de GitHub Pages
@@ -44,6 +43,7 @@ Stappen:
 - clone deze repository op een voor jou geschikte plek
 - open een terminal
 - ga de directory van clone binnen: `cd NL-BE`
+- draai `npm install`
 - draai Eleventy: `npm start`
 
 Er start dan een lokale webserver op met de GitHub pages http://localhost:8080
