@@ -1,6 +1,6 @@
 ---
 title: Achtergrondkleur knop minimaal 3:1 contrast met aangrenzende kleur?
-tags: 2.4.11
+tags: 1.4.11
 label: passed, button, contrast
 permalink: false
 github: https://github.com/WCAG-Audit-Discussions/NL-BE/issues/25
