@@ -31,6 +31,7 @@ We zijn lief en respectvol voor elkaar en voor elkaars mening.
 - [Jules Ernst](https://github.com/julezrulez) van 200OK
 - [Hidde de Vries](https://github.com/hidde) van Hidde de Vries
 - [Ronny Hendriks](https://github.com/Aircl0wn) van Toegankelijk Online
+- [Roel Van Gils](https://github.com/roelvangils) van Eleven Ways (België)
 
 ## Bijdragen aan de GitHub Pages
 
