@@ -44,9 +44,9 @@ We zijn lief en respectvol voor elkaar en voor elkaars mening.
 
 In principe onderhouden de beheerders de GitHub Pages.
 
-De pagina’s zijn gemaakt en worden bijgehouden met de [NPM module Eleventy](https://www.11ty.dev/docs/getting-started/). Voor een local install heb je [node.js](https://nodejs.org/en/) versie 10 of hoger nodig.
+De pagina’s zijn gemaakt en worden bijgehouden met de [NPM module Eleventy](https://www.11ty.dev/docs/getting-started/). Voor een lokale installatie heb je [node.js](https://nodejs.org/en/) versie 10 of hoger nodig.
 
-### Opzetten locale omgeving
+### Opzetten lokale omgeving
 
 Stappen:
 
