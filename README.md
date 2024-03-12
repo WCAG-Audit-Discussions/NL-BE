@@ -27,6 +27,8 @@ Deze omgeving is voor discussie over het interpreteren van de WCAG succescriteri
 Heb je vragen of opmerkingen over WCAG zelf, dan is dit niet de goede plek.
 Hiervoor kun je terecht op de [Fronteers Slack](https://fronteersnl.slack.com) in het kanaal **#accessibility**.
 
+Ten minste 3 onderzoekers van verschillende onderzoeksbureau's moeten het eens zijn voordat de status consensus wordt toegekend.
+
 ## Code of conduct
 
 We zijn lief en respectvol voor elkaar en voor elkaars mening.
