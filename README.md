@@ -25,7 +25,7 @@ Hiervoor kun je terecht op de [Fronteers Slack](https://fronteersnl.slack.com) i
 
 Tenminste drie onderzoekers van verschillende onderzoeksbureaus moeten het eens zijn voordat de status 'Consensus' wordt toegekend.
 
-Heeft een issue de status 'Consensus' en ben je het hier niet mee eens, vraag aan een van de beheerders om de status naar 'Feedback gevraagd' aan te passen em geef je mening als comment bij het issue.
+Heeft een issue de status 'Consensus' en ben je het hier niet mee eens, vraag aan een van de beheerders om de status naar 'Feedback gevraagd' aan te passen en geef je mening als comment bij het issue.
 
 ## Code of conduct
 
@@ -36,8 +36,8 @@ We zijn lief en respectvol voor elkaar en voor elkaars mening.
 De beheerders kennen labels toe en controleren of de discussies respectvol en on-topic zijn.
 
 - [Brian Bors](https://github.com/ShadowBB) van Stichting Accessibility (Nederland)
+- [Christophe Strobbe](https://github.com/cstrobbe) van Eleven Ways (België)
 - [Jules Ernst](https://github.com/julezrulez) van 200 OK (Nederland)
-- [Roel Van Gils](https://github.com/roelvangils) van Eleven Ways (België)
 - [Ronny Hendriks](https://github.com/Aircl0wn) van Toegankelijk Online (Nederland)
 - [Rian Rietveld](https://github.com/rianrietveld) van Rian Rietveld (Nederland)
 - [Hidde de Vries](https://github.com/hidde) van Hidde de Vries (Nederland)
